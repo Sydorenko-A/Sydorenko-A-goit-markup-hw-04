@@ -131,6 +131,8 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -430,13 +432,12 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social {
   margin-left: 70px;
-  padding-top: 12px;
   width: 206px;
-  height: 80px;
 }
 
 .footer-socil-title {
